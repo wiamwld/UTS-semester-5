@@ -1,4 +1,4 @@
-import logo from "./logo.png";
-import Splashbackground from "./Splashbackground.png";
+import logo from './logo.png';
+import SplashBackground from './SplashBackground.png';
 
-export {logo, Splashbackground}
+export {logo, SplashBackground};

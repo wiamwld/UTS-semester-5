@@ -1,14 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 
 const Home = () => {
   return (
     <View>
-      <Text>wiam</Text>
+      <Text>wiam unyil </Text>
     </View>
-  )
+  );
 };
 
-export default Home
+export default Home;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
