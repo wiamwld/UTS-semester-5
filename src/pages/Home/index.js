@@ -1,17 +1,19 @@
 import {
   StyleSheet,
   Text,
+  Image,
   View,
   ImageBackground,
   Dimensions,
 } from 'react-native';
 import React from 'react';
-import {Imageheader} from '../../assets';
+import {Imageheader, lugu} from '../../assets';
 
 const Home = () => {
   return (
     <View style={styles.page}>
       <ImageBackground source={Imageheader} style={styles.header} />
+      <Image source={lugu} style={styles.lugu} />
       <View style={styles.hello}>
         <Text style={styles.selamat}> selamat datang </Text>
         <Text style={styles.username}>JT online</Text>
@@ -33,12 +35,18 @@ const styles = StyleSheet.create({
   header: {
     width: windowWidth,
     height: windowHeigt * 0.3,
-    paddingHorizontal: 100,
+    paddingHorizontal: 30,
     paddingTop: 10,
   },
   hello: {
-    position: 'absolute',
-    top: 1,
-    textAlign: 'center',
+    marginTop: windowHeigt * 0.03,
+    width: windowWidth * 1,
+    height: windowHeigt * 1,
+  },
+  selamat: {
+    fontSize: 24,
+  },
+  username: {
+    fontSize: 20,
   },
 });
