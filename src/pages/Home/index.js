@@ -7,15 +7,14 @@ import {
   Dimensions,
 } from 'react-native';
 import React from 'react';
-import {Imageheader, lugu} from '../../assets';
+import {Imageheader} from '../../assets';
 
 const Home = () => {
   return (
     <View style={styles.page}>
       <ImageBackground source={Imageheader} style={styles.header} />
-      <Image source={lugu} style={styles.lugu} />
       <View style={styles.hello}>
-        <Text style={styles.selamat}> selamat datang </Text>
+        <Text style={styles.selamat}> selamat datang teman teman </Text>
         <Text style={styles.username}>JT online</Text>
       </View>
       <ImageBackground />
